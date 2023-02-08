@@ -1,3 +1,5 @@
+package com.lay.layutls.password;
+
 import java.security.SecureRandom;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -84,7 +86,7 @@ public class RandomPwd {
     public static void main(String[] args) {
         for (int i = 0; i < 10; i++) {
             int num = 10;
-            System.out.println(getRandomPwd(15));
+            System.out.println(getRandomPwd(8));
         }
     }
 
